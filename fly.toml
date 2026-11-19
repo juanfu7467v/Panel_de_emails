@@ -1,13 +1,12 @@
-# fly.toml app configuration file generated for panel-de-emails on 2026-05-07T21:04:12Z
+# fly.toml app configuration file generated for panel-de-emails on 2026-11-19T15:38:32Z
 #
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+# See https://docs.fly.io/reference/configuration for information about how to use this file.
 #
 
 app = 'panel-de-emails'
 primary_region = 'ams'
 
 [build]
-
 [http_service]
   internal_port = 8080
   force_https = true
